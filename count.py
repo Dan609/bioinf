@@ -1,3 +1,10 @@
+a = input()
+print("A", a.count('A'))
+print("G", a.count('G'))
+print("C", a.count('C'))
+print("T", a.count('T'))
+
+
 print((lambda a: (a.count('C') + a.count('G')) / len(a) * 100)(str(input()).upper()))
 
 
