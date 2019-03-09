@@ -5,6 +5,12 @@ print("C", a.count('C'))
 print("T", a.count('T'))
 
 
+a = input()
+print("A", round(a.count('A')/len(a), 2))
+print("G", round(a.count('G')/len(a), 2))
+print("C", round(a.count('C')/len(a), 2))
+print("T", round(a.count('T')/len(a), 2))
+
 print((lambda a: (a.count('C') + a.count('G')) / len(a) * 100)(str(input()).upper()))
 
 
